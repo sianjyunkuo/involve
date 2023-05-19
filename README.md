@@ -50,3 +50,10 @@ Before delete data with product name: pen (MongoDB screen shot)
 <img width="1567" alt="after" src="https://github.com/sianjyunkuo/involve/assets/23247251/7597ad01-16d2-40a0-b687-b5796d568c5c">
 After delete data with product name: pen (MongoDB screen shot)
 <img width="1151" alt="after2" src="https://github.com/sianjyunkuo/involve/assets/23247251/29acde98-da14-4d94-8439-5b4fbdb251ae">
+
+
+## Future improvement
+1. API on the internet using something like AWS Lambda, Fargate, or EC2.
+2. Add simple security, like token-based authentication.
+3. Make database do complex things, like using multiple collections, relationships, or aggregation queries.
+4. Use Langchain to create an AI agent
