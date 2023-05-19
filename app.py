@@ -6,7 +6,7 @@ from pymongo import MongoClient
 app = Flask(__name__)
 
 # MongoDB connection initialize
-cluster = MongoClient("mongodb+srv://<MongoDB Account>:<your own password>@cluster.fgn1nir.mongodb.net/")
+cluster = MongoClient("your MongoDB cloud account link")
 db = cluster["store"]
 collections = db["pitch"]
 
