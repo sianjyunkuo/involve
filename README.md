@@ -7,7 +7,7 @@ A simple web tool (API) using Python Flask. It connect to a MongoDB database and
 * A DELETE part to remove certain data from the MongoDB database.
 
 ## Start
-1. Clone the code to local
+1. Clone the code to local and install Flask, openai, and pymongo.
 2. Get MongoDB cloud link and replace into code line#9
 3. Get OpenAI API keys and replace into code line#14
 4. Run python app.py
@@ -17,7 +17,9 @@ A simple web tool (API) using Python Flask. It connect to a MongoDB database and
 Get data from the MongoDB database
 After run python app.py, you can get data from the MongoDB in two ways.
 1. Query with product id (http://127.0.0.1:5000/product/ with GET function)
+<img width="1744" alt="截圖 2023-05-19 11 55 36" src="https://github.com/sianjyunkuo/involve/assets/23247251/d205a76a-a7e3-4c8d-8241-b53af96433ed">
 2. Query with product name (http://127.0.0.1:5000/product_name/ wtih GET function)
+<img width="1745" alt="2" src="https://github.com/sianjyunkuo/involve/assets/23247251/1cdb870d-dfd3-45df-924a-a8fd4dbeadeb">
 
 
 ### POST
@@ -27,9 +29,14 @@ In the postman change link to http://127.0.0.1:50000/product_post with POST func
 {
     "question":"query"
 }
+<img width="1362" alt="post" src="https://github.com/sianjyunkuo/involve/assets/23247251/c57ae0c5-ddc4-4571-abce-c93787d79a7e">
+Refresh the mongoDB cloud and check for the new added query.
+<img width="1440" alt="mongo" src="https://github.com/sianjyunkuo/involve/assets/23247251/e3e1bb81-0b85-441c-bf99-91ef0f10ab5c">
 
 ### DELETE
 Remove certain data from the MongoDB database.
 After run python app.py, you can remove data from the MongoDB in two ways.
 1. Remove data with product id (http://127.0.0.1:5000/product_delete_by_id/ with DELETE function)
+<img width="1358" alt="delete1" src="https://github.com/sianjyunkuo/involve/assets/23247251/8473ebf2-1f23-434c-9142-4010d71627c0">
+
 2. Remove data with product name (http://127.0.0.1:5000/product_delete_by_name/ wtih DELETE function)
