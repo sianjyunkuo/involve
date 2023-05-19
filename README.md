@@ -11,7 +11,7 @@ A simple web tool (API) using Python Flask. It connect to a MongoDB database and
 2. Get MongoDB cloud link and replace into code line#9
 3. Get OpenAI API keys and replace into code line#14
 4. Run python app.py
-5. Open postman and play around with http://127.0.0.1:50000/
+5. Open postman and play around with http://127.0.0.1:5000/
 
 ### GET
 Get data from the MongoDB database
