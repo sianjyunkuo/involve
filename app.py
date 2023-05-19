@@ -6,10 +6,12 @@ from pymongo import MongoClient
 app = Flask(__name__)
 
 # MongoDB connection initialize
+cluster = MongoClient("mongodb+srv://<MongoDB Account>:<your own password>@cluster.fgn1nir.mongodb.net/")
 db = cluster["store"]
 collections = db["pitch"]
 
 # openai gpt-3.5 API initialize
+OpenAI_API_KEY = 'your own OpenAI API Key'
 openai.api_key = OpenAI_API_KEY
 model_id = 'gpt-3.5-turbo'
 query = ""
