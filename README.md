@@ -38,5 +38,15 @@ Remove certain data from the MongoDB database.
 After run python app.py, you can remove data from the MongoDB in two ways.
 1. Remove data with product id (http://127.0.0.1:5000/product_delete_by_id/ with DELETE function)
 <img width="1358" alt="delete1" src="https://github.com/sianjyunkuo/involve/assets/23247251/8473ebf2-1f23-434c-9142-4010d71627c0">
+Before delete with product id: 3 (MongoDB screen shot)
+<img width="1556" alt="before" src="https://github.com/sianjyunkuo/involve/assets/23247251/a0b15765-a503-444a-a701-d689de43cc32">
+After delete with product id: 3 (MongoDB screen shot)
+<img width="1567" alt="after" src="https://github.com/sianjyunkuo/involve/assets/23247251/15d5de29-c6cb-45dd-9e9b-9831ca307932">
+
 
 2. Remove data with product name (http://127.0.0.1:5000/product_delete_by_name/ wtih DELETE function)
+<img width="1367" alt="deletebyname" src="https://github.com/sianjyunkuo/involve/assets/23247251/d409cfe9-a695-4d3d-a5e2-c31794def824">
+Before delete data with product name: pen (MongoDB screen shot)
+<img width="1567" alt="after" src="https://github.com/sianjyunkuo/involve/assets/23247251/7597ad01-16d2-40a0-b687-b5796d568c5c">
+After delete data with product name: pen (MongoDB screen shot)
+<img width="1151" alt="after2" src="https://github.com/sianjyunkuo/involve/assets/23247251/29acde98-da14-4d94-8439-5b4fbdb251ae">
